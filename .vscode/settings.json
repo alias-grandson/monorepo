@@ -1,0 +1,12 @@
+{
+  "vue.server.vitePress.supportMdFile": true,
+  "vite.vitepressAutoRouting": true,
+  "vite.vitepressBase": "docs",
+  "vite.autoStart": false,
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false
+  }
+}

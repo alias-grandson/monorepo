@@ -1,0 +1,24 @@
+{
+  "name": "@monorepo/docs",
+  "version": "0.0.0",
+  "private": true,
+  "description": "monorepo ui docs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@monorepo/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.5",
+    "eslint": "^8.43.0",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.3.9",
+    "vitepress": "1.0.0-beta.3",
+    "vue": "^3.3.4"
+  }
+}
